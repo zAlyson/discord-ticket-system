@@ -1,0 +1,20 @@
+{
+  "name": "discord-ticket-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "start:dev": "nodemon ./src/index.ts",
+    "build": "tsc"
+  }
+}
